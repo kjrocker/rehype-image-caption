@@ -1,18 +1,15 @@
 export default [
 	{
 		title: "image with alt text as plaintext",
-		input: `![Image](http://example.com/test.png)`
+		input: `![Alt](http://example.com/test.png)`
 	},
 	{
-		title: "image with alt text and custom classes",
-		input: `![Image](http://example.com/test.png)`,
-		options: {
-			className: "figure",
-		}
+		title: "image with alt text and caption",
+		input: `![Image](http://example.com/test.png "Caption")`,
 	},
 	{
-		title: "image with alt text containing markdown",
-		input: `![Image with **strong** _emphasis_](http://example.com/test.png)`
+		title: "image with alt text, caption, and paragraph",
+		input: `![Image](http://example.com/test.png "Caption")Text`
 	},
 	{
 		title: "image with no alt text",

@@ -1,7 +1,7 @@
 {
-	"name": "@microflash/rehype-figure",
-	"version": "2.1.1",
-	"description": "rehype plugin to transform an image with alt text to a figure with caption",
+	"name": "rehype-image-caption",
+	"version": "0.0.1",
+	"description": "rehype plugin to add an image's caption to its paragraph element as text",
 	"license": "MIT",
 	"keywords": [
 		"unified",
@@ -12,10 +12,10 @@
 		"caption",
 		"image"
 	],
-	"repository": "https://github.com/Microflash/rehype-figure.git",
-	"bugs": "https://github.com/Microflash/rehype-figure/issues",
-	"homepage": "https://github.com/Microflash/rehype-figure#readme",
-	"author": "Naiyer Asif (https://www.naiyerasif.com)",
+	"repository": "https://github.com/kjrocker/rehype-image-caption.git",
+	"bugs": "https://github.com/kjrocker/rehype-image-caption/issues",
+	"homepage": "https://github.com/kjrocker/rehype-image-caption#readme",
+	"author": "Kevin Rocker (https://www.kevinrocker.com)",
 	"type": "module",
 	"main": "index.js",
 	"files": [
@@ -36,6 +36,5 @@
 		"remark-rehype": "^11.1.0",
 		"unified": "^11.0.5",
 		"vitest": "^2.0.5"
-	},
-	"packageManager": "pnpm@9.9.0"
+	}
 }
